@@ -4,19 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    <script
+      src="https://kit.fontawesome.com/050bef8ccc.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Login</title>
   </head>
-  <body>
+  <body class="bg-orange-50">
     <header>
-      <section>
-        <div class="containter">
-          <nav>
-            <img class="" src="/image/Logo.png" alt="not found" />
-          </nav>
-        </div>
-      </section>
+      <nav class="py-2 px-2 bg-white">
+        <img src="../image/Logo.png" alt="not found" />
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="flex justify-center items-center h-screen">
+      <form
+        class="flex justify-end gap-3 flex-wrap w-4/5 md:w-2/5 bg-white py-6 px-6 rounded-md"
+      >
+        <h2 class="w-full font-bold text-lg text-center">Masuk ke Akun</h2>
+        <h3 class="w-full text-sm text-center text-gray-400">
+          Yuk, lanjutin belajarmu di videobelajar.
+        </h3>
+        <div class="w-full">
+          <label> E-Mail <span class="text-red-500">*</span> </label>
+          <input
+            class="w-full py-2 px-2 border border-gray-200 rounded-md"
+            type="email"
+            name="email"
+          />
+        </div>
+        <div class="w-full">
+          <label> Kata Sandi <span class="text-red-500">*</span> </label>
+          <div class="flex border border-gray-200 rounded-md">
+            <input class="w-full py-2 px-2 rounded-md" type="password" name="password" />
+            <div class="py-2 px-2">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="text-sm hover:text-blue-500 href="#"> Lupa password?</a>
+        </div>
+        <button class="w-full py-2 px-2 bg-green-500 hover:bg-green-800 rounded-md text-sm text-white" type="submit" value="Login">
+          Masuk
+        </button>
+        <button class="w-full py-2 px-2 bg-green-200 rounded-md text-green-500 hover:bg-green-800 text-sm" type="submit" value="Daftar">
+          Daftar
+        </button>
+        <div class="flex gap-2 items-center w-full">
+          <div class="h-0.5 bg-gray-300 w-full"></div>
+          <div>
+            atau
+          </div>
+          <div class="h-0.5 bg-gray-300 w-full"></div>
+        </div>
+        <div class="flex py-2 px-2 w-full justify-center items-center border border-gray-200 rounded-md">
+          <div>
+            <i class="fa-brands fa-google"></i>
+          </div>
+          <button class="rounded-md text-sm ml-4 " type="submit" value="Masuk_google">
+            Masuk dengan Google
+          </button>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
