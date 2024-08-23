@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Login</title>
+  </head>
+  <body class="bg-orange-50">
+    <header>
+      <nav class="py-2 px-2 bg-white">
+        <img src="../image/Logo.png" alt="not found" />
+      </nav>
+    </header>
+    <main>
+      <div class="flex justify-center items-center my-20">
+        <form
+          class="flex justify-end gap-3 flex-wrap w-3/4 md:w-2/5 bg-white py-6 px-6 rounded-md"
+        >
+          <h2 class="w-full font-bold text-lg text-center">Pendaftaran Akun</h2>
+          <h3 class="w-full text-sm text-center text-gray-400">
+            Yuk, daftarkan akunmu sekarang juga!
+          </h3>
+          <div class="w-full">
+            <label> Nama Lengkap<span class="text-red-500">*</span> </label>
+            <input
+              class="w-full py-2 px-2 border border-gray-200 rounded-md"
+              type="text"
+              name="nama_lengkap"
+            />
+          </div>
+          <div class="w-full">
+            <label> E-Mail <span class="text-red-500">*</span> </label>
+            <input
+              class="w-full py-2 px-2 rounded-md border border-gray-200"
+              type="email"
+              name="email"
+            />
+          </div>
+          <div class="w-full">
+            <label> Ho.Hp <span class="text-red-500">*</span> </label>
+            <div class="flex gap-3">
+              <div class="flex w-40 border border-gray-200 rounded-md">
+                <div class="py-2 px-2 bg-gray-100 border-r border-gray-200">
+                  <img
+                    class="w-8 h-8"
+                    src="../image/Indonesia.png"
+                    alt="Not Found"
+                  />
+                </div>
+                <select class="w-full rounded-md" id="No_hp_country">
+                  <option value="indonesia">+62</option>
+                </select>
+              </div>
+              <input
+                class="w-full py-2 px-2 border border-gray-200 rounded-md"
+                type="text"
+                name="No_hp"
+              />
+            </div>
+          </div>
+          <div class="w-full">
+            <label> Kata Sandi <span class="text-red-500">*</span> </label>
+            <div class="flex border border-gray-200 rounded-md">
+              <input
+                class="w-full py-2 px-2 rounded-md"
+                type="password"
+                name="password"
+              />
+              <div class="py-2 px-2">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
+          </div>
+          <div class="w-full">
+            <label>
+              Konfirmasi Kata Sandi <span class="text-red-500">*</span>
+            </label>
+            <div class="flex border border-gray-200 rounded-md">
+              <input
+                class="w-full py-2 px-2 rounded-md"
+                type="password"
+                name="konfirmasi_password"
+              />
+              <div class="py-2 px-2">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
+          </div>
+          <button
+            class="w-full py-2 px-2 bg-green-500 rounded-md text-green-200 hover:bg-green-800 text-sm"
+            type="submit"
+            value="Daftar"
+          >
+            Daftar
+          </button>
+          <a href="Login.html" class="w-full">
+            <button
+              class="w-full py-2 px-2 bg-green-200 rounded-md text-green-500 hover:bg-green-800 text-sm"
+              type="submit"
+              value="Masuk"
+            >
+              Masuk
+            </button>
+          </a>
+          <div class="flex gap-2 items-center w-full">
+            <div class="h-0.5 bg-gray-300 w-full"></div>
+            <div>atau</div>
+            <div class="h-0.5 bg-gray-300 w-full"></div>
+          </div>
+          <div
+            class="flex py-2 px-2 w-full justify-center items-center border border-gray-200 rounded-md"
+          >
+            <div>
+              <i class="fa-brands fa-google"></i>
+            </div>
+            <button
+              class="rounded-md text-sm ml-4"
+              type="submit"
+              value="Masuk_google"
+            >
+              Daftar dengan Google
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
