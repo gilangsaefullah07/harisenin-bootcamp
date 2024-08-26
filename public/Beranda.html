@@ -15,11 +15,11 @@
     <!-- Top Konten -->
     <header>
       <nav
-        class="flex py-2 px-2 bg-white border-b-2 border-gray-200 place-content-between items-center"
+        class="flex p-4 bg-white border-b-2 border-gray-200 place-content-between items-center"
       >
         <img src="../image/Logo.png" alt="not found" />
-        <div class="flex items-center invisible md:visible">
-          <p class="text-sm mr-2">Kategori</p>
+        <div class="flex items-center hidden md:inline-flex">
+          <p class="block text-sm mr-2">Kategori</p>
           <div class="py-2 px-2 rounded-md">
             <img src="../image/Avatar.png" alt="Not Found" />
           </div>
@@ -577,15 +577,143 @@
 
         <!-- Banner 2 -->
         <div
-          class="w-full flex flex-col gap-4 p-10 rounded-md"
+          class="w-full flex flex-col gap-4 p-10 rounded-md justify-center items-center"
           style="
             background-image: url(../image/Banner_cta.png);
             background-size: 100%;
+            background-repeat: stretch;
           "
         >
-          wadwadadawda
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-2">
+              <p class="w-full text-sm text-white text-center">NEWSLETTER</p>
+              <p class="w-full text-2xl font-bold text-white text-center">
+                Mau Belajar Lebih Banyak?
+              </p>
+              <p class="w-full text-sm text-white text-center">
+                Daftarkan dirimu untuk mendapatkan informasi terbaru dan
+                penawaran spesial dari program-program terbaik hariesok.id
+              </p>
+            </div>
+            <div class="flex p-3 gap-3 bg-white justify-between rounded-md">
+              <input
+                class="w-full"
+                type="email"
+                name="email_beranda"
+                placeholder="Masukkan Emailmu"
+              />
+              <button
+                class="font-bold bg-yellow-500 text-white rounded-md p-2 hidden md:block"
+              >
+                Subscribe
+              </button>
+            </div>
+            <button
+              class="font-bold bg-yellow-500 text-white rounded-md p-2 md:hidden"
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
     </main>
+
+    <footer>
+      <div class="flex flex-col gap-4 p-4 bg-white border-b-2 border-gray-200">
+        <div class="flex flex-col md:flex-row justify-between w-full gap-4">
+          <div class="flex flex-col gap-2">
+            <img class="w-44" src="../image/Logo.png" alt="Not Found" />
+            <p class="font-bold">
+              Gali Potensi Anda Melalui Pembelajaran Video di hariesok.id!
+            </p>
+            <p class="text-sm">Jl. Usman Effendi No. 50 Lowokwaru, Malang</p>
+            <p class="text-sm">+62-877-7123-1234</p>
+          </div>
+          <div class="flex flex-col gap-2 hidden md:inline-flex">
+            <p class="font-bold">Kategori</p>
+            <a class="text-gray-400 hover:text-green-500" href
+              >Digital & Teknologi</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href>Pemasaran</a>
+            <a class="text-gray-400 hover:text-green-500" href
+              >Manajemen Bisnis</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href
+              >Pengembangan Diri</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href>Desain</a>
+          </div>
+          <div class="flex flex-col gap-2 hidden md:inline-flex">
+            <p class="font-bold">Perusahaan</p>
+            <a class="text-gray-400 hover:text-green-500" href>Tentang Kami</a>
+            <a class="text-gray-400 hover:text-green-500" href>FAQ</a>
+            <a class="text-gray-400 hover:text-green-500" href
+              >Kebijakan Privasi</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href
+              >Ketentuan Layanan</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href>Bantuan</a>
+          </div>
+          <div class="flex flex-col gap-2 hidden md:inline-flex">
+            <p class="font-bold">Komunitas</p>
+            <a class="text-gray-400 hover:text-green-500" href>Tips Sukses</a>
+            <a class="text-gray-400 hover:text-green-500" href>Blog</a>
+          </div>
+          <div class="flex flex-row md:hidden justify-between">
+            <p class="font-bold text-sm">Kategori</p>
+            <div class="p-1 rounded-full">
+              <i
+                class="flex fa-solid fa-chevron-right h-[24px] w-[24px] justify-center items-center text-gray-400"
+              ></i>
+            </div>
+          </div>
+          <div class="flex flex-row md:hidden justify-between">
+            <p class="font-bold text-sm">Perusahaan</p>
+            <div class="p-1 rounded-full">
+              <i
+                class="flex fa-solid fa-chevron-right h-[24px] w-[24px] justify-center items-center text-gray-400"
+              ></i>
+            </div>
+          </div>
+          <div class="flex flex-row md:hidden justify-between">
+            <p class="font-bold text-sm">Komunitas</p>
+            <div class="p-1 rounded-full">
+              <i
+                class="flex fa-solid fa-chevron-right h-[24px] w-[24px] justify-center items-center text-gray-400"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="h-0.5 bg-gray-300 w-full"></div>
+        <div class="flex flex-col gap-4 md:flex-row md:justify-between">
+          <p class="text-gray-400 w-full">
+            @2023 Gerobak Sayur All Rights Reserved.
+          </p>
+          <div class="flex flex-row gap-2">
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-linkedin-in h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-facebook-f h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-square-instagram h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-twitter h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
