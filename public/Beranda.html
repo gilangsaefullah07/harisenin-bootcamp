@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Beranda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-orange-50">
+    <!-- Top Konten -->
+    <header>
+      <nav
+        class="flex p-4 bg-white border-b-2 border-gray-200 place-content-between items-center"
+      >
+        <img src="../image/Logo.png" alt="not found" />
+        <div class="flex items-center hidden md:inline-flex">
+          <p class="block text-sm mr-2">Kategori</p>
+          <div class="py-2 px-2 rounded-md">
+            <img src="../image/Avatar.png" alt="Not Found" />
+          </div>
+        </div>
+        <div class="p-2 md:hidden">
+          <i
+            class="flex fa-solid fa-bars w-[24px] h-[24px] justify-center items-center"
+          ></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Konten -->
+    <main class="my-8">
+      <div class="flex flex-col gap-4 p-4">
+        <div
+          class="w-full flex flex-col gap-4 p-10 rounded-md"
+          style="
+            background-image: url(../image/Background_banner.png);
+            background-repeat: no-repeat;
+          "
+        >
+          <div class="w-full justify-center items-center flex flex-col gap-2">
+            <p class="w-full text-center item text-white font-bold text-2xl">
+              Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video
+              Interaktif!
+            </p>
+            <p class="w-full text-white text-sm text-center">
+              Temukan ilmu baru yang menarik dan mendalam melalui koleksi video
+              pembelajaran berkualitas tinggi. Tidak hanya itu, Anda juga dapat
+              berpartisipasi dalam latihan interaktif yang akan meningkatkan
+              pemahaman Anda.
+            </p>
+          </div>
+
+          <button
+            class="bg-green-500 hover:bg-green-800 text-white font-bold p-2 rounded-md"
+          >
+            Temukan Video Course untuk Dipelajari!
+          </button>
+        </div>
+        <div class="w-full flex flex-col gap-2">
+          <p class="w-full text-2xl font-bold">
+            Koleksi Video Pembelajaran Unggulan
+          </p>
+          <p class="w-full text-sm">
+            Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!
+          </p>
+        </div>
+
+        <!-- Section Tab -->
+        <div
+          class="text-sm text-center border-b border-gray-200 overflow-hidden"
+        >
+          <ul class="flex">
+            <li>
+              <a
+                href="#"
+                class="whitespace-nowrap inline-block p-4 text-red-500 border-b-2 border-red-500 font-bold"
+                >Semua Kelas</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="whitespace-nowrap inline-block p-4 border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300"
+                >Pemasaran</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="whitespace-nowrap inline-block p-4 border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300"
+                >Desain</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="whitespace-nowrap inline-block p-4 border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300"
+                >Pengembangan Diri</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="whitespace-nowrap inline-block p-4 border-b-2 border-transparent hover:text-gray-400 hover:border-gray-300"
+                >Bisnis</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Section Card 1 -->
+        <div class="flex flex-col md:flex-row gap-4">
+          <!-- Card 1 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section Card 2 -->
+        <div class="flex flex-col md:flex-row gap-4">
+          <!-- Card 1 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section Card 3 -->
+        <div class="flex flex-col md:flex-row gap-4">
+          <!-- Card 1 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full flex flex-col gap-3 card bg-white rounded-md p-3">
+            <div class="flex row gap-3 md:flex-col">
+              <img
+                class="rounded-md h-[80px] w-[80px] md:w-full md:h-full"
+                src="../image/Card_1.png"
+                alt="Not Found"
+              />
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-2">
+                  <p class="text-md font-bold">
+                    Big 4 Auditor Financial Analyst
+                  </p>
+                  <p class="text-sm text-gray-400 hidden md:line-clamp-2">
+                    Mulai transformasi dengan instruktur profesional, harga yang
+                    terjangkau, dan kurikulum terbaik
+                  </p>
+                </div>
+                <div class="w-full flex gap-3 overflow-ellipsis">
+                  <img
+                    class="h-[36px] w-[36px]"
+                    src="../image/Avatar.png"
+                    alt="Avatar Image"
+                  />
+                  <div>
+                    <p class="w-full line-clamp-1 font-bold">Jenna Ortega</p>
+                    <p class="w-full line-clamp-1 text-sm text-gray-400">
+                      Senior Accountant di
+                      <span class="font-bold">Gojek</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-3 items-center">
+                <div class="flex gap-2">
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-yellow-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                  <i class="fa-solid fa-star text-gray-400"></i>
+                </div>
+                <p class="underline underline-offset-1 text-gray-400">
+                  3.5 (86)
+                </p>
+              </div>
+              <p class="text-2xl text-green-500 font-bold">300K</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner 2 -->
+        <div
+          class="w-full flex flex-col gap-4 p-10 rounded-md justify-center items-center"
+          style="
+            background-image: url(../image/Banner_cta.png);
+            background-size: 100%;
+            background-repeat: stretch;
+          "
+        >
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-2">
+              <p class="w-full text-sm text-white text-center">NEWSLETTER</p>
+              <p class="w-full text-2xl font-bold text-white text-center">
+                Mau Belajar Lebih Banyak?
+              </p>
+              <p class="w-full text-sm text-white text-center">
+                Daftarkan dirimu untuk mendapatkan informasi terbaru dan
+                penawaran spesial dari program-program terbaik hariesok.id
+              </p>
+            </div>
+            <div class="flex p-3 gap-3 bg-white justify-between rounded-md">
+              <input
+                class="w-full"
+                type="email"
+                name="email_beranda"
+                placeholder="Masukkan Emailmu"
+              />
+              <button
+                class="font-bold bg-yellow-500 text-white rounded-md p-2 hidden md:block"
+              >
+                Subscribe
+              </button>
+            </div>
+            <button
+              class="font-bold bg-yellow-500 text-white rounded-md p-2 md:hidden"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="flex flex-col gap-4 p-4 bg-white border-b-2 border-gray-200">
+        <div class="flex flex-col md:flex-row justify-between w-full gap-4">
+          <div class="flex flex-col gap-2">
+            <img class="w-44" src="../image/Logo.png" alt="Not Found" />
+            <p class="font-bold">
+              Gali Potensi Anda Melalui Pembelajaran Video di hariesok.id!
+            </p>
+            <p class="text-sm">Jl. Usman Effendi No. 50 Lowokwaru, Malang</p>
+            <p class="text-sm">+62-877-7123-1234</p>
+          </div>
+          <div class="flex flex-col gap-2 hidden md:inline-flex">
+            <p class="font-bold">Kategori</p>
+            <a class="text-gray-400 hover:text-green-500" href
+              >Digital & Teknologi</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href>Pemasaran</a>
+            <a class="text-gray-400 hover:text-green-500" href
+              >Manajemen Bisnis</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href
+              >Pengembangan Diri</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href>Desain</a>
+          </div>
+          <div class="flex flex-col gap-2 hidden md:inline-flex">
+            <p class="font-bold">Perusahaan</p>
+            <a class="text-gray-400 hover:text-green-500" href>Tentang Kami</a>
+            <a class="text-gray-400 hover:text-green-500" href>FAQ</a>
+            <a class="text-gray-400 hover:text-green-500" href
+              >Kebijakan Privasi</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href
+              >Ketentuan Layanan</a
+            >
+            <a class="text-gray-400 hover:text-green-500" href>Bantuan</a>
+          </div>
+          <div class="flex flex-col gap-2 hidden md:inline-flex">
+            <p class="font-bold">Komunitas</p>
+            <a class="text-gray-400 hover:text-green-500" href>Tips Sukses</a>
+            <a class="text-gray-400 hover:text-green-500" href>Blog</a>
+          </div>
+          <div class="flex flex-row md:hidden justify-between">
+            <p class="font-bold text-sm">Kategori</p>
+            <div class="p-1 rounded-full">
+              <i
+                class="flex fa-solid fa-chevron-right h-[24px] w-[24px] justify-center items-center text-gray-400"
+              ></i>
+            </div>
+          </div>
+          <div class="flex flex-row md:hidden justify-between">
+            <p class="font-bold text-sm">Perusahaan</p>
+            <div class="p-1 rounded-full">
+              <i
+                class="flex fa-solid fa-chevron-right h-[24px] w-[24px] justify-center items-center text-gray-400"
+              ></i>
+            </div>
+          </div>
+          <div class="flex flex-row md:hidden justify-between">
+            <p class="font-bold text-sm">Komunitas</p>
+            <div class="p-1 rounded-full">
+              <i
+                class="flex fa-solid fa-chevron-right h-[24px] w-[24px] justify-center items-center text-gray-400"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="h-0.5 bg-gray-300 w-full"></div>
+        <div class="flex flex-col gap-4 md:flex-row md:justify-between">
+          <p class="text-gray-400 w-full">
+            @2023 Gerobak Sayur All Rights Reserved.
+          </p>
+          <div class="flex flex-row gap-2">
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-linkedin-in h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-facebook-f h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-square-instagram h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+            <div class="p-1 border border-gray-200 rounded-full">
+              <i
+                class="flex fa-brands fa-twitter h-[24px] w-[24px] justify-center items-center"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
